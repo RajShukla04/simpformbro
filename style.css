@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.middle {
+  display: none;
+}
+.signUp-main {
+  background: url("/img/love-3061483.jpg");
+  height: 100vh;
+  width: 100vw;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sign-up {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: none;
+}
+.sign-up .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sign-up .text span {
+  position: absolute;
+  top: 20vh;
+  font-size: 1.3rem;
+  color: #fff;
+  z-index: 1200;
+}
+.create-form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 999;
+  overflow: hidden;
+}
+.create-form .top img {
+  width: 22rem;
+  filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 54px 55px)
+    drop-shadow(rgba(0, 0, 0, 0.12) 0px -12px 30px)
+    drop-shadow(rgba(0, 0, 0, 0.12) 0px 4px 6px)
+    drop-shadow(rgba(0, 0, 0, 0.17) 0px 12px 13px)
+    drop-shadow(rgba(0, 0, 0, 0.09) 0px -3px 5px);
+
+  animation: move ease 1s alternate infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateY(-13%);
+  }
+  100% {
+    transform: translateY(13);
+  }
+}
+.fatherOfSeconform {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.create-form .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-form .bottom .form-Container {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  width: 20vw;
+  position: relative;
+}
+.create-form .bottom .form-Container .first-form,
+.second-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.create-form .bottom .form-Container .first-form label,
+.second-form label {
+  text-align: left;
+}
+.input-signUp {
+  position: relative;
+}
+.input,
+.create-buttom-acc,
+.Login-buttom-form {
+  width: 100%;
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  border-radius: 0 15px 0 15px;
+  transition: all 0.6s;
+  color: black;
+}
+.input::placeholder {
+  font-size: 1rem;
+  color: #000;
+}
+#prof-img,
+#prof-img2 {
+  position: absolute;
+  left: 4px;
+  bottom: 15px;
+  margin: auto 0;
+}
+.buttom-other-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wrap-it {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wrap-it p {
+  text-align: center;
+}
+.create-buttom-acc:hover,
+.Login-buttom-form:hover,
+.sign-in form div button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+}
+.wrap-it .okitsone {
+  height: 2px;
+  position: absolute;
+  left: 0;
+  width: 40%;
+  background-color: #000;
+}
+.wrap-it .itstwoalso {
+  position: absolute;
+  left: 60%;
+}
+/* .bu.ttom-bg {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  position: relative;
+}
+.buttom-bg img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+} */
+/*                                                                
+
+
+
+
+        It's Login  form Section
+
+
+
+
+*/
+.sign-in {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sign-in form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  overflow: hidden;
+  z-index: 2100;
+}
+.sign-in form div {
+  width: 30vw;
+}
+.sign-in form p {
+  color: #fff;
+  font-weight: bold;
+  transition: all 1s;
+}
+.sign-in form p:hover {
+  text-decoration: underline;
+}
+.sign-in form div input {
+  padding: 20px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0 15px 0 15px;
+
+  color: black;
+}
+.sign-in form div button {
+  width: 100%;
+  padding: 20px;
+  transition: all 0.6s;
+  border: none;
+  color: black;
+  border-radius: 0 15px 0 15px;
+  z-index: 1200;
+}
+.imgwav {
+  width: 100%;
+  position: relative;
+}
+.imgwav img {
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+  bottom: -5rem;
+  z-index: 1;
+}

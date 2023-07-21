@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="signUp-main">
+        <form action="" onsubmit="signinsubmitted()">
+          <div class="sign-up">
+            <div class="text">
+              <span
+                >Hi there!
+                <h1>Let's Get Started</h1></span
+              >
+            </div>
+            <div class="create-form">
+              <div class="top">
+                <img src="/img/Rectangle.png" alt="" />
+              </div>
+              <div class="middle">
+                <span
+                  >Hi there!
+                  <h1>Let's Get Started</h1></span
+                >
+              </div>
+              <div class="bottom">
+                <div class="form-Container">
+                  <div class="first-form">
+                    <label for="UserName">Name:</label> <br />
+                    <div class="input-signUp">
+                      <input
+                        type="text"
+                        name="UserName"
+                        placeholder="Your Name"
+                        required
+                        class="input"
+                        id="signininputfo"
+                      />
+                      <br />
+                      <img
+                        src="/img/ic_sharp-account-circle.png"
+                        alt=""
+                        id="prof-img"
+                      />
+                    </div>
+                  </div>
+                  <div class="fatherOfSeconform">
+                    <div class="second-form">
+                      <label for="password">Password: </label> <br />
+                      <div class="input-signUp">
+                        <input
+                          type="password"
+                          name="password"
+                          placeholder="Password"
+                          class="input"
+                          id="signinpassfo"
+                        />
+                        <br />
+                        <img
+                          src="/img/ri_lock-password-fill.png"
+                          alt=""
+                          id="prof-img2"
+                        />
+                      </div>
+                    </div>
+                    <div class="buttom-other-sec">
+                      <button class="create-buttom-acc">Login</button>
+                      <div class="wrap-it">
+                        <div class="okitsone"></div>
+                        <p>or</p>
+                        <div class="okitsone itstwoalso"></div>
+                      </div>
+                      <button class="Login-buttom-form">Create Account</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="buttom-bg">
+            <img src="/img/wave.svg" alt="">
+          </div> -->
+          </div>
+        </form>
+
+        <div class="sign-in">
+          <form action="/server/server.js" id="myForm">
+            <div class="signinone">
+              <label for="userName">Name: </label>
+              <input
+                type="text"
+                name="UserName"
+                placeholder="Name bruh?"
+                required
+                id="userFirstName"
+              />
+              <br />
+            </div>
+            <div class="signintwo">
+              <label for="otherName">Other Name: </label> <br />
+              <input
+                type="text"
+                name="otherName"
+                placeholder="nickName? "
+                id="userSOtherName"
+              />
+              <br />
+            </div>
+            <div class="signinthree">
+              <label for="email">Email: </label><br />
+              <input
+                type="email"
+                required
+                name="email"
+                placeholder="your Email Here: "
+                id="userEmailForSignUp"
+              />
+              <br />
+            </div>
+            <div class="signinfour">
+              <label for="number">Number: </label> <br />
+              <input
+                type="text"
+                required
+                name="number"
+                placeholder="number? "
+                id="userNumberForSignUp"
+              />
+              <br />
+            </div>
+            <div class="signinfifth">
+              <label for="pass">Pasword: </label><br />
+              <input
+                type="password"
+                placeholder="ok now your Password"
+                required
+                name="pass"
+                id="userPassForSignUp"
+              />
+              <br />
+            </div>
+            <div class="btn-2">
+              <button type="submit" id="btn2">Sign up</button>
+            </div>
+            <p>i'm already a member</p>
+          </form>
+          <div class="imgwav">
+            <img src="/img/wave.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
